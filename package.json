@@ -1,0 +1,51 @@
+{
+  "name": "twilio-signature-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for generating Twilio webhook signatures",
+  "keywords": [
+    "twilio",
+    "signature",
+    "webhook",
+    "cli",
+    "validation",
+    "security"
+  ],
+  "homepage": "https://github.com/yourusername/twilio-signature-cli#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/twilio-signature-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/twilio-signature-cli.git"
+  },
+  "license": "ISC",
+  "author": "Kousha Talebian <k@ousha.me>",
+  "main": "dist/index.js",
+  "bin": {
+    "twilio-signature": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "commander": "^11.1.0",
+    "twilio-signature": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.19",
+    "typescript": "^5.8.3"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=10.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
