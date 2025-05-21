@@ -1,6 +1,6 @@
 {
   "name": "twilio-signature-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool for generating Twilio webhook signatures",
   "keywords": [
     "twilio",
