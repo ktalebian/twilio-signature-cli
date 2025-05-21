@@ -1,7 +1,7 @@
 # Twilio Signature CLI
 
 [![npm version](https://img.shields.io/npm/v/twilio-signature-cli.svg)](https://www.npmjs.com/package/twilio-signature-cli)
-[![License](https://img.shields.io/npm/l/twilio-signature-cli.svg)](https://github.com/yourusername/twilio-signature-cli/blob/main/LICENSE)
+[![License](https://img.shields.io/npm/l/twilio-signature-cli.svg)](https://github.com/ktalebian/twilio-signature-cli/blob/main/LICENSE)
 
 A command-line interface tool for generating Twilio signatures to validate webhook requests.
 
