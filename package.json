@@ -10,13 +10,13 @@
     "validation",
     "security"
   ],
-  "homepage": "https://github.com/yourusername/twilio-signature-cli#readme",
+  "homepage": "https://github.com/ktalebian/twilio-signature-cli#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/twilio-signature-cli/issues"
+    "url": "https://github.com/ktalebian/twilio-signature-cli/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/twilio-signature-cli.git"
+    "url": "git+https://github.com/ktalebian/twilio-signature-cli.git"
   },
   "license": "ISC",
   "author": "Kousha Talebian <k@ousha.me>",
